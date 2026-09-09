@@ -12,10 +12,6 @@ An experimental client-side anti-cheat for Counter-Strike 1.6, written in C++. T
 
 Some checks are unfinished or disabled in the source, so this should be treated as a prototype rather than a production security system.
 
-## Building
-
-Open `rnr_ac.sln` in Visual Studio. The included legacy project builds a 32-bit Windows DLL and uses the older `.vcproj` format. Importing or upgrading the project will likely be necessary in a modern Visual Studio version.
-
 ## Status
 
 Archived and unmaintained. The implementation relies on old GoldSrc structures, offsets, and Windows APIs and is not expected to work unchanged with current game builds.
